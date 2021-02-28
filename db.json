@@ -8,4 +8,5 @@ class Block constructor(index, timestamp, data, previousHash ='' )
       } 
 }
 
- class Blockchain{ constuctor(){ this.chain + [this,createGenisisBlock()]; }
+ class Blockchain constuctor(){ this.chain + [this,createGenisisBlock()]; 
+}
